@@ -19,16 +19,13 @@ h2 {
      font-family: 'Georgia', Times, Times New Roman, serif;
  }
 
- #about {
+ .about {
      margin: 25px;
      font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
-     float: left;
-     width: 33%;
-     height: 200px;
      background-color: #fff;
      border: 1px solid #eee;
  }
 
  body{
-    background-image: url('../../PREWORK_DRH/bananas/bananas.png')
+    background-image: url('../images/bananas.png')
  }
