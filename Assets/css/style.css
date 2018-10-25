@@ -5,6 +5,7 @@ h1 {
     width: 270px;
     margin: 30px;
     padding: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -87,4 +88,52 @@ h2 {
     padding: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
+ }
+
+ #line{
+     text-align: center;
+     background-color: #666666;
+     width: 100%;
+     height: 50px;
+     padding: 1px;
+     -moz-border-radius: 35px;
+     color: #ffffff;
+     position: fixed;
+     bottom: 0;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 10pt;
+ }
+
+ .yep3{
+    background-color: #ffffff;
+    width: 960px;
+    border: 2px solid #dddddd;
+    padding: 10px;
+    margin: 25px; 
+ }
+
+ .yep5{
+    background-color: #ffffff;
+    width: 960px;
+    border: 2px solid #dddddd;
+    padding: 10px;
+    margin: 25px; 
+ }
+
+ .yep12{
+    background-color: #ffffff;
+    width: 960px;
+    border: 2px solid #dddddd;
+    padding: 10px;
+    margin: 25px; 
+ }
+
+ .box{
+    background-color: #ffffff;
+    width: 960px;
+    border: 2px solid #dddddd;
+    padding: 10px;
+    margin: 25px; 
+    height: 100px;
  }
