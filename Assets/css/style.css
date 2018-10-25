@@ -137,3 +137,17 @@ h2 {
     margin: 25px; 
     height: 100px;
  }
+
+ #line1{
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 30px;
+    padding: 1px;
+    -moz-border-radius: 25px;
+    position: fixed;
+    bottom: 1;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10pt; 
+ }
