@@ -61,6 +61,7 @@ h2 {
     padding: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
+    float: right;
  }
 
  #yep9{
@@ -103,6 +104,7 @@ h2 {
      margin-left: auto;
      margin-right: auto;
      font-size: 10pt;
+     margin: -10px;
  }
 
  .yep3{
@@ -127,6 +129,7 @@ h2 {
     border: 2px solid #dddddd;
     padding: 10px;
     margin: 25px; 
+    height: 50px;
  }
 
  .box{
@@ -135,19 +138,61 @@ h2 {
     border: 2px solid #dddddd;
     padding: 10px;
     margin: 25px; 
-    height: 100px;
+    height: 5px;
  }
 
  #line1{
     text-align: center;
     background-color: #4aaaa5;
     width: 100%;
-    height: 30px;
+    height: 40px;
     padding: 1px;
     -moz-border-radius: 25px;
+    position: fixed;
+    bottom: 3;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10pt; 
+ }
+
+ #submit{
+     padding: 25px;
+     background-color: #4aaaa5;
+     color: #ffffff;
+     margin: 30px;
+     width: 65px;
+     font-size: 16pt;
+     text-align: center;
+ }
+
+ #line2{
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 10px;
+    padding: 1px;
+    -moz-border-radius: 30px;
     position: fixed;
     bottom: 1;
     margin-left: auto;
     margin-right: auto;
-    font-size: 10pt; 
+    margin: 376px -10px 80px;
+ }
+
+ #line3{
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 10px;
+    padding: 1px;
+    -moz-border-radius: 30px;
+    position: fixed;
+    bottom: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 150px -5px;
+ }
+
+ #pic2{
+    float: right;
  }
