@@ -28,6 +28,7 @@ a {
 
  #name {
      margin: 20px 200px 20px 200px;
+     z-index: 1;
  }
 
  .about {
@@ -37,6 +38,7 @@ a {
      background-color: #fff;
      border: 1px solid #eee;
      overflow: auto;
+     border: ridge 1px #666666;
  }
 
  body{
@@ -187,4 +189,22 @@ a {
 
  #me{
      float: right;
+ }
+
+ 
+ #line2{
+    text-align: center;
+    width: 100%;
+    height: 105px;
+    padding: 1px;
+    -moz-border-radius: 35px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10pt;
+    margin: -10px;
+    border: ridge 1px #666666;
+    z-index: -1;
  }
